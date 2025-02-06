@@ -3,11 +3,11 @@ import logoLight from "/assets/logos/logo-white.png";
 import sunIcon from "/assets/svgs/sun.svg";
 import moonIcon from "/assets/svgs/moon.svg";
 import me from "/assets/personal/me_transparent.png";
-import resume from "/assets/personal/Shariq-Ahmed-Resume-03-Feb-2025.pdf";
+// import resume from "/assets/personal/Shariq-Ahmed-Resume-03-Feb-2025.pdf";
 
 // Service Icon
 import mobile from "/assets/skills/mobile.svg";
-import devops from "/assets/skills/devops.svg";
+// import devops from "/assets/skills/devops.svg";
 import backend from "/assets/skills/backend.svg";
 import frontend from "/assets/skills/frontend.svg";
 
@@ -48,18 +48,18 @@ import tailwindCSS from "/assets/tech/TailwindCSS.png";
 import postgresSQL from "/assets/tech/PostgresSQL.png";
 
 // Portfolios Icons
-import bioPortfolio from "/assets/portfolios/bio.png";
-import plaiPortfolio from "/assets/portfolios/plai.jpg";
-import lionsPortfolio from "/assets/portfolios/lions.jpg";
-import dirtoutPortfolio from "/assets/portfolios/dirtout.png";
-import lineagePortfolio from "/assets/portfolios/lineage.webp";
-import iAgilityPortfolio from "/assets/portfolios/iagility.png";
-import steepRockPortfolio from "/assets/portfolios/steeprock.png";
-import personalPortfolio from "/assets/portfolios/personal-web.png";
-import moertschPortfolio from "/assets/portfolios/moertsch-mobile.webp";
-import floeyMobilePortfolio from "/assets/portfolios/floey-mobile.webp";
-import diridealPortfolio from "/assets/portfolios/dirideal-mobile.webp";
-import relayAutoPortfolio from "/assets/portfolios/relayautomotive-web.webp";
+// import bioPortfolio from "/assets/portfolios/bio.png";
+// import plaiPortfolio from "/assets/portfolios/plai.jpg";
+import lionsPortfolio from "/assets/portfolios/beneficary.png";
+import dirtoutPortfolio from "/assets/portfolios/duct.png";
+import lineagePortfolio from "/assets/portfolios/doctorappointment.png";
+// import iAgilityPortfolio from "/assets/portfolios/iagility.png";
+// import steepRockPortfolio from "/assets/portfolios/steeprock.png";
+import personalPortfolio from "/assets/portfolios/hassnainportfolio.png";
+import moertschPortfolio from "/assets/portfolios/LMS.png";
+// import floeyMobilePortfolio from "/assets/portfolios/floey-mobile.webp";
+// import diridealPortfolio from "/assets/portfolios/dirideal-mobile.webp";
+// import relayAutoPortfolio from "/assets/portfolios/relayautomotive-web.webp";
 
 // Client Photos
 import jan from "/assets/clients/jan.jpg";
@@ -82,7 +82,7 @@ export {
   // Service Icon
   mobile,
   backend,
-  devops,
+  // devops,
   frontend,
 
   // Companies Icon
@@ -122,18 +122,18 @@ export {
   adonis,
 
   // Portfolios Icons
-  bioPortfolio,
-  plaiPortfolio,
+  // bioPortfolio,
+  // plaiPortfolio,
   lionsPortfolio,
   dirtoutPortfolio,
   lineagePortfolio,
-  iAgilityPortfolio,
+  // iAgilityPortfolio,
   personalPortfolio,
   moertschPortfolio,
-  diridealPortfolio,
-  steepRockPortfolio,
-  relayAutoPortfolio,
-  floeyMobilePortfolio,
+  // diridealPortfolio,
+  // steepRockPortfolio,
+  // relayAutoPortfolio,
+  // floeyMobilePortfolio,
 
   // client
   jan,
@@ -149,5 +149,5 @@ export {
 
   // Personal
   me,
-  resume,
+  // resume,
 };

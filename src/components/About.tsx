@@ -2,9 +2,8 @@ import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles.js";
 import { IoMdCalendar } from "react-icons/io";
-import { me, resume } from "../assets/index.js";
+import { me} from "../assets/index.js";
 import { SectionWrapper } from "../hoc/index.js";
-import { SiAdobeacrobatreader } from "react-icons/si";
 import { fadeIn, textVariant } from "../utils/motion.js";
 import {
   CALENDLY_LINK,
@@ -62,18 +61,17 @@ const About = () => {
               <h2
                 className={`${styles.sectionHeadText} text-center md:text-left`}
               >
-                Hi, I'm Shariq.
+                Hi, I'm Hassnain.
               </h2>
             </div>
           </motion.div>
           {/* @ts-expect-error */}
           <motion.div variants={fadeIn("", "", 0.1, 1)}>
             <p className="mt-4 text-c-black dark:text-gray-300 text-[15px] sm:text-lg text-center md:text-left leading-[30px]">
-              A Full Stack Developer with over 6 years of experience building
+              A Full Stack Developer with over 5 Months Experince building
               dynamic websites and scalable applications. I specialize in
               front-end technologies like React.js, Next.js and React Native, as
-              well as back-end systems using Node.js, Nest.js, PostgreSQL, and
-              Docker. My expertise also includes writing efficient APIs,
+              well as back-end systems using Node.js. My expertise also includes writing efficient APIs,
               optimizing database performance, and creating seamless user
               experiences.
               <br /> <br />
@@ -96,7 +94,7 @@ const About = () => {
           <div className="bg-[#cbdcef] dark:bg-[#09283c] rounded-[20px] w-72 h-72 sm:w-96 sm:h-96 flex justify-evenly items-center overflow-hidden shadow-2xl dark:shadow-secondary border border-solid theme-gradient">
             <img
               src={me}
-              alt="Shariq Ahmed Profile Picture"
+              alt="Hassnain Profile Picture"
               className="w-full h-full object-contain"
             />
           </div>
@@ -139,7 +137,7 @@ const About = () => {
                 <a
                   target="_blank"
                   href={CALENDLY_LINK}
-                  title="Call Schedule with Shariq Ahmed on Calendly"
+                  title="Call Schedule with Hassnain Ahmed on Calendly"
                   className="py-2.5 px-5 rounded-xl outline-none font-medium text-c-black dark:text-gray-300 flex justify-center items-center"
                 >
                   <IoMdCalendar size={22} />{" "}
@@ -149,23 +147,7 @@ const About = () => {
             </div>
           </Tilt>
 
-          <Tilt className="h-full">
-            <div className="border border-solid theme-gradient rounded-full">
-              <div
-                className={`${styles.buttonBg} p-[1px] rounded-full flex justify-center items-center cursor-pointer select-none`}
-              >
-                <a
-                  href={resume}
-                  target="_blank"
-                  title="Shariq Ahmed Resume"
-                  className="py-2.5 px-5 rounded-xl outline-none font-medium text-c-black dark:text-gray-300 flex justify-center items-center"
-                >
-                  <SiAdobeacrobatreader size={22} />{" "}
-                  <span className="pl-3">View Resume</span>
-                </a>
-              </div>
-            </div>
-          </Tilt>
+          
         </div>
       </motion.div>
 

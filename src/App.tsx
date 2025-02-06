@@ -6,7 +6,7 @@ import {
   Navbar,
   Contact,
   Programs,
-  Feedbacks,
+  // Feedbacks,
   Experience,
   StarsCanvas,
 } from "./components/index.ts";
@@ -72,9 +72,6 @@ const App = () => {
         </Element>
         <Element name="projects">
           <Works />
-        </Element>
-        <Element name="testimonials">
-          <Feedbacks />
         </Element>
         <Element name="education">
           <Programs />

@@ -124,7 +124,7 @@ class CreateParticles {
     this.buttom = false;
 
     this.data = {
-      text: "Innovative Solutions\n Develop With Shariq",
+      text: "Innovative Solutions\n Develop With Hassnain",
       amount: 400,
       particleSize: 2,
       particleColor: 0xffffff,
@@ -430,7 +430,7 @@ class CreateParticles {
       // Big Desktop Size
       this.data.amount = 400;
       this.data.particleSize = 2;
-      this.data.text = "Innovative Solutions\n Develop With Shariq";
+      this.data.text = "Innovative Solutions\n Develop With Hassnain";
       (this.data.particleColor = 0xffffff), (this.data.textSize = 7);
       this.data.area = 250;
       this.data.ease = 0.07;
@@ -441,7 +441,7 @@ class CreateParticles {
       // Laptop Size
       this.data.amount = 300;
       this.data.particleSize = 1.75;
-      this.data.text = "Innovative Solutions\n Develop With Shariq";
+      this.data.text = "Innovative Solutions\n Develop With Hassnain";
       (this.data.particleColor = 0xffffff), (this.data.textSize = 5);
       this.data.area = 200;
       this.data.ease = 0.06;
@@ -452,7 +452,7 @@ class CreateParticles {
       // Tablet Size
       this.data.amount = 250;
       this.data.particleSize = 1.5;
-      this.data.text = "Innovative Solutions\n Develop With Shariq";
+      this.data.text = "Innovative Solutions\n Develop With Hassnain";
       (this.data.particleColor = 0xffffff), (this.data.textSize = 4);
       this.data.area = 150;
       this.data.ease = 0.05;
@@ -460,14 +460,14 @@ class CreateParticles {
       // Big Mobile Size
       this.data.amount = 200;
       this.data.particleSize = 1.25;
-      this.data.text = "  Innovative\n   Solutions\nDevelop With\n      Shariq";
+      this.data.text = "  Innovative\n   Solutions\nDevelop With\n      Hassnain";
       (this.data.particleColor = 0xffffff), (this.data.textSize = 3.5);
       this.data.area = 100;
       this.data.ease = 0.04;
     } else if (screenWidth <= mobileThreshold) {
       this.data.amount = 125;
       this.data.particleSize = 1;
-      this.data.text = "  Innovative\n   Solutions\nDevelop With\n      Shariq";
+      this.data.text = "  Innovative\n   Solutions\nDevelop With\n      Hassnain";
       (this.data.particleColor = 0xffffff), (this.data.textSize = 3);
       this.data.area = 50;
       this.data.ease = 0.03;
