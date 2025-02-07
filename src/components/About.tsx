@@ -68,12 +68,7 @@ const About = () => {
           {/* @ts-expect-error */}
           <motion.div variants={fadeIn("", "", 0.1, 1)}>
             <p className="mt-4 text-c-black dark:text-gray-300 text-[15px] sm:text-lg text-center md:text-left leading-[30px]">
-              A Full Stack Developer with over 5 Months Experince building
-              dynamic websites and scalable applications. I specialize in
-              front-end technologies like React.js, Next.js and React Native, as
-              well as back-end systems using Node.js. My expertise also includes writing efficient APIs,
-              optimizing database performance, and creating seamless user
-              experiences.
+            I'm a Full Stack Developer with 5+ months of experience in React.js, Next.js, React Native, and Node.js, building dynamic and scalable applications.
               <br /> <br />
               If you'd like to know more or discuss opportunities, feel free to
               email me at
@@ -151,7 +146,7 @@ const About = () => {
         </div>
       </motion.div>
 
-      <div className="mt-20 grid items-center justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7 xl:gap-10">
+      <div className="mt-20 grid items-center justify-center grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-7 xl:gap-10">
         {services.map((service, index) => (
           <ServiceCard key={`service-${index}`} index={index} {...service} />
         ))}

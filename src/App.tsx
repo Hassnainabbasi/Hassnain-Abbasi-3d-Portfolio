@@ -7,7 +7,6 @@ import {
   Contact,
   Programs,
   // Feedbacks,
-  Experience,
   StarsCanvas,
 } from "./components/index.ts";
 import { Element } from "react-scroll";
@@ -64,9 +63,9 @@ const App = () => {
         <Element name="about">
           <About />
         </Element>
-        <Element name="experience">
+        {/* <Element name="experience">
           <Experience />
-        </Element>
+        </Element> */}
         <Element name="tech">
           <Tech />
         </Element>

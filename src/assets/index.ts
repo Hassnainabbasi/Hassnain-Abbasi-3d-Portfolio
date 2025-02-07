@@ -2,7 +2,7 @@ import logoDark from "/assets/logos/logo-black.png";
 import logoLight from "/assets/logos/logo-white.png";
 import sunIcon from "/assets/svgs/sun.svg";
 import moonIcon from "/assets/svgs/moon.svg";
-import me from "/assets/personal/me_transparent.png";
+import me from "/assets/personal/me_transparent.jpeg";
 // import resume from "/assets/personal/Shariq-Ahmed-Resume-03-Feb-2025.pdf";
 
 // Service Icon

@@ -3,7 +3,6 @@ import {
   frontend,
   // devops,
   mobile,
-  backend,
 
   // Companies Icon
   freelancing,
@@ -83,10 +82,6 @@ const services = [
   {
     title: "Mobile Beginners",
     icon: mobile,
-  },
-  {
-    title: "Backend Architecture Engineer",
-    icon: backend,
   },
 ];
 
