@@ -40,8 +40,6 @@ import {
   // floeyMobilePortfolio,
 
   // Certifications
-  fuuast,
-  smit,
 } from "../assets";
 import { MdEmail } from "react-icons/md";
 import { IoMdCall } from "react-icons/io";
@@ -455,25 +453,14 @@ export interface ProgramInterface {
   description: string;
   date: string;
   link?: string;
-  icon: string;
 }
 
 const programs: ProgramInterface[] = [
   {
-    company: "FUUAST",
+    company: "Govt Inter Boys College",
     title: "Intermediate",
-    icon: fuuast,
     date: "Feb 2024 - Present",
-    description: "Intermediate in Computer Science BSCS",
-  },
-  {
-    company: "SMIT",
-    title: "Progressive Web App Developer",
-    icon: smit,
-    date: "Dec 2023 - Present",
-    description:
-      "The Progressive Web App (PWA) Program at Saylani Mass IT Training teaches the skills needed to build fast and reliable web applications. It covers HTML, CSS, JavaScript, ECMAScript, Firebase, and PWA technologies. This training helps learners create web apps that work offline, load quickly, and provide a smooth user experience.",
-    // link: "https://drive.google.com/file/d/1Nh1GNVfMOe_Fs7mAzAongjOguEJZTmrJ/view",
+    description: "Intermediate",
   },
 ];
 

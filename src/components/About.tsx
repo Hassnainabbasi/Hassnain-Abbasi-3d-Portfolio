@@ -68,7 +68,9 @@ const About = () => {
           {/* @ts-expect-error */}
           <motion.div variants={fadeIn("", "", 0.1, 1)}>
             <p className="mt-4 text-c-black dark:text-gray-300 text-[15px] sm:text-lg text-center md:text-left leading-[30px]">
-            I'm a Full Stack Developer with 5+ months of experience in React.js, Next.js, React Native, and Node.js, building dynamic and scalable applications.
+            Motivated and quick-learning Full-stack Developer with expertise in JavaScript, React.js, Node.js, and CSS. 
+Skilled in building scalable applications and currently enhancing knowledge in modern web technologies. 
+Passionate about problem-solving and continuous learning.
               <br /> <br />
               If you'd like to know more or discuss opportunities, feel free to
               email me at

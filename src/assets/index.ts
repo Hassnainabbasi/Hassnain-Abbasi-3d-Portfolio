@@ -67,8 +67,6 @@ import alberto from "/assets/clients/alberto.jpg";
 import francisco from "/assets/clients/francisco.jpg";
 
 // Certificates Photos
-import smit from "/assets/certificates/smit.jpg";
-import fuuast from "/assets/certificates/fuuast.png";
 import aptech from "/assets/certificates/aptech.png";
 import udacity from "/assets/certificates/udacity.png";
 import coursera from "/assets/certificates/coursera.png";
@@ -141,8 +139,6 @@ export {
   francisco,
 
   // Certificates icon
-  smit,
-  fuuast,
   aptech,
   udacity,
   coursera,
